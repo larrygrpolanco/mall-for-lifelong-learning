@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>MALL for Lifelong Learning — Jihye Kim, Ph.D.</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,700;1,400;1,700&amp;family=Manrope:wght@400;500;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "secondary-fixed-dim": "#ffb4a5",
+                        "primary-fixed": "#ffdfa0",
+                        "primary": "#ffe2ab",
+                        "on-error-container": "#ffdad6",
+                        "outline-variant": "#504532",
+                        "primary-container": "#ffbf00",
+                        "surface-container": "#18202c",
+                        "surface-container-lowest": "#070e1a",
+                        "on-secondary-fixed-variant": "#802918",
+                        "on-secondary-fixed": "#3e0500",
+                        "on-primary-fixed-variant": "#5c4300",
+                        "outline": "#9c8f78",
+                        "on-secondary-container": "#ff9a85",
+                        "surface-bright": "#323a47",
+                        "inverse-primary": "#795900",
+                        "on-tertiary-fixed": "#241a00",
+                        "surface-container-high": "#222a37",
+                        "on-primary": "#402d00",
+                        "primary-fixed-dim": "#fbbc00",
+                        "surface-container-low": "#141c28",
+                        "secondary-fixed": "#ffdad3",
+                        "surface-variant": "#2d3542",
+                        "on-surface": "#dbe3f4",
+                        "on-background": "#dbe3f4",
+                        "secondary": "#ffb4a5",
+                        "inverse-surface": "#dbe3f4",
+                        "surface-tint": "#fbbc00",
+                        "surface": "#0c141f",
+                        "on-error": "#690005",
+                        "surface-dim": "#0c141f",
+                        "error-container": "#93000a",
+                        "tertiary-container": "#ecc54b",
+                        "on-tertiary-container": "#675200",
+                        "error": "#ffb4ab",
+                        "on-tertiary": "#3c2f00",
+                        "on-primary-fixed": "#261a00",
+                        "on-tertiary-fixed-variant": "#574500",
+                        "on-surface-variant": "#d4c5ab",
+                        "background": "#0c141f",
+                        "tertiary-fixed-dim": "#e9c349",
+                        "on-secondary": "#611205",
+                        "on-primary-container": "#6d5000",
+                        "surface-container-highest": "#2d3542",
+                        "secondary-container": "#802918",
+                        "inverse-on-surface": "#29313e",
+                        "tertiary-fixed": "#ffe088",
+                        "tertiary": "#ffe395"
+                    },
+                    fontFamily: {
+                        "headline": ["Newsreader", "serif"],
+                        "body": ["Manrope", "sans-serif"],
+                        "label": ["Manrope", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            background-color: #0c141f;
+            color: #dbe3f4;
+            font-family: 'Manrope', sans-serif;
+            -webkit-font-smoothing: antialiased;
+        }
+    </style>
+</head>
+<body class="flex flex-col min-h-screen">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-[#0c141f]/80 backdrop-blur-xl shadow-[0px_40px_60px_-15px_rgba(12,20,31,0.06)] flex justify-between items-center px-6 py-4">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-[#ffe2ab] scale-95 duration-200 cursor-pointer" data-icon="menu">menu</span>
+<span class="text-xl font-serif italic text-[#ffe2ab] tracking-tight">The Scholarly Editorial</span>
+</div>
+<span class="material-symbols-outlined text-[#ffe2ab] scale-95 duration-200 cursor-pointer" data-icon="search">search</span>
+</header>
+<main class="flex-grow pt-24 pb-32">
+<!-- Hero Section -->
+<section class="px-6 mb-20">
+<div class="mb-4">
+<span class="text-[#ffe395] font-label text-[10px] uppercase tracking-widest font-bold">Featured Research</span>
+</div>
+<h1 class="text-5xl font-headline italic tracking-tight text-[#ffe2ab] leading-[1.1] mb-6">MALL for Lifelong Learning</h1>
+<p class="text-lg font-body text-[#dbe3f4]/80 leading-relaxed mb-8">
+                Older adults' self-directed language learning via Duolingo — challenging the deficit narrative of aging and technology.
+            </p>
+<div class="w-full aspect-[4/5] bg-surface-container-low rounded-xl overflow-hidden relative group">
+<img alt="Research aesthetic" class="w-full h-full object-cover grayscale opacity-60 group-hover:grayscale-0 transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDlzRWUz59aY5-UY5kt43FzVQFEOGLRyFZeOcZbFagAldMoLMPyqYNwS-DnP8LCb5BXqO-ahDpV-XD0xHC1hkMR-JAZgbVwSAbGOhWYjnfXi3jsG9PWONzQgcJ69xYAq-Rd0IM2XHOlmxteqZq6orBNjP8PWjsI0u67TygC7qIRlJFhXQOamJkSaleRDUYLbfcE3mZnm1xKk1-hX358VP4aXCLlo8SQ6Whx93SfGzs2xWR6AIQ1CNHyMMwCgwcO-i1h_8H3xHPYhKA"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface to-transparent opacity-80"></div>
+<div class="absolute bottom-6 left-6">
+<p class="text-sm font-label text-[#ffe2ab]">Jihye Kim, Ph.D.</p>
+<p class="text-[10px] text-[#dbe3f4]/60 uppercase tracking-wider">University of South Florida</p>
+</div>
+</div>
+</section>
+<!-- Quote Callout Section -->
+<section class="px-6 py-16 flex flex-col items-center text-center space-y-10">
+<div class="w-px h-10 bg-[#ffe395]"></div>
+<blockquote class="text-3xl font-headline italic leading-tight text-[#dbe3f4]">
+                "As I approach the age of 73, Duolingo helps to keep my mind sharp."
+            </blockquote>
+<cite class="text-[#ffe395] font-label text-xs uppercase tracking-widest not-italic">— Participant Observation</cite>
+</section>
+<!-- Study at a Glance: Asymmetric Grid -->
+<section class="px-6 py-20 bg-surface-container-low/30">
+<h2 class="text-[#ffe395] font-label text-[10px] uppercase tracking-widest mb-12">Study at a Glance</h2>
+<div class="grid grid-cols-2 gap-px bg-[#504532]/20">
+<div class="p-6 bg-surface">
+<span class="text-4xl font-headline text-[#ffe2ab]">15</span>
+<p class="text-[10px] text-[#d4c5ab] mt-2 uppercase">Participants</p>
+</div>
+<div class="p-6 bg-surface">
+<span class="text-4xl font-headline text-[#ffe2ab]">60–83</span>
+<p class="text-[10px] text-[#d4c5ab] mt-2 uppercase">Age Range</p>
+</div>
+<div class="p-6 bg-surface">
+<span class="text-4xl font-headline text-[#ffe2ab]">10</span>
+<p class="text-[10px] text-[#d4c5ab] mt-2 uppercase">Weeks Duration</p>
+</div>
+<div class="p-6 bg-surface">
+<span class="text-4xl font-headline text-[#ffe2ab]">6</span>
+<p class="text-[10px] text-[#d4c5ab] mt-2 uppercase">Case Studies</p>
+</div>
+<div class="p-6 bg-surface">
+<span class="text-4xl font-headline text-[#ffe2ab]">100%</span>
+<p class="text-[10px] text-[#d4c5ab] mt-2 uppercase">Smartphone Users</p>
+</div>
+<div class="p-6 bg-surface">
+<span class="text-4xl font-headline text-[#ffe2ab]">1</span>
+<p class="text-[10px] text-[#d4c5ab] mt-2 uppercase">Low Attrition</p>
+</div>
+</div>
+</section>
+<!-- Key Takeaways: High Impact Cards -->
+<section class="px-6 py-20 space-y-6">
+<h2 class="text-[#ffe395] font-label text-[10px] uppercase tracking-widest mb-4">The Big Takeaways</h2>
+<div class="p-8 bg-surface-container-low rounded-xl flex flex-col gap-6">
+<span class="material-symbols-outlined text-[#ffbf00] text-4xl" data-icon="psychology">psychology</span>
+<div>
+<h3 class="text-2xl font-headline text-[#ffe2ab] mb-3">Various Learning Strategies</h3>
+<p class="text-sm font-body text-[#dbe3f4]/70 leading-relaxed">Older adults are strategic learners, not passive users. They employ diverse self-monitoring practices: writing things down by hand, constant self-evaluating, and seeking external resources like ChatGPT or news to supplement app gaps.</p>
+</div>
+</div>
+<div class="p-8 bg-surface-container-highest rounded-xl flex flex-col gap-6">
+<span class="material-symbols-outlined text-[#ffb4a5] text-4xl" data-icon="auto_awesome">auto_awesome</span>
+<div>
+<h3 class="text-2xl font-headline text-[#ffe2ab] mb-3">Sustained High Motivation</h3>
+<p class="text-sm font-body text-[#dbe3f4]/70 leading-relaxed">Unlike younger demographics who often drop off, the 60+ cohort maintained rock-solid motivation for 10 weeks. Their drive is deeply intrinsic: leisure, travel, and a critical focus on maintaining cognitive health and brain plasticity.</p>
+</div>
+</div>
+<div class="p-8 bg-surface-container-low rounded-xl flex flex-col gap-6">
+<span class="material-symbols-outlined text-[#ffe2ab] text-4xl" data-icon="replay">replay</span>
+<div>
+<h3 class="text-2xl font-headline text-[#ffe2ab] mb-3">The Power of Repetition</h3>
+<p class="text-sm font-body text-[#dbe3f4]/70 leading-relaxed">While younger learners often criticize repetitive content, older adults actively sought out repetition as a core feature. They redo lessons to achieve mastery, viewing redundancy as an essential tool for memory reinforcement and brain health.</p>
+</div>
+</div>
+</section>
+<!-- Research Questions: Clickable Interaction Layer -->
+<section class="px-6 py-20">
+<h2 class="text-[#ffe395] font-label text-[10px] uppercase tracking-widest mb-12">Research Questions</h2>
+<div class="space-y-4">
+<div class="group p-6 border-b border-[#504532]/20 flex justify-between items-center active:bg-surface-container-low transition-colors cursor-pointer">
+<div class="max-w-[85%]">
+<span class="text-[10px] text-[#ffe395] mb-2 block font-label uppercase">RQ1: User Experience</span>
+<h4 class="text-lg font-headline text-[#dbe3f4]/90 group-hover:text-[#ffe2ab] transition-colors">How do older adults navigate the gamified interface of Duolingo over time?</h4>
+</div>
+<span class="material-symbols-outlined text-[#504532] group-hover:text-[#ffe2ab]" data-icon="arrow_forward_ios">arrow_forward_ios</span>
+</div>
+<div class="group p-6 border-b border-[#504532]/20 flex justify-between items-center active:bg-surface-container-low transition-colors cursor-pointer">
+<div class="max-w-[85%]">
+<span class="text-[10px] text-[#ffe395] mb-2 block font-label uppercase">RQ2: Metacognition</span>
+<h4 class="text-lg font-headline text-[#dbe3f4]/90 group-hover:text-[#ffe2ab] transition-colors">How do older adults utilize Duolingo in terms of self-monitoring practices?</h4>
+</div>
+<span class="material-symbols-outlined text-[#504532] group-hover:text-[#ffe2ab]" data-icon="arrow_forward_ios">arrow_forward_ios</span>
+</div>
+<div class="group p-6 border-b border-[#504532]/20 flex justify-between items-center active:bg-surface-container-low transition-colors cursor-pointer">
+<div class="max-w-[85%]">
+<span class="text-[10px] text-[#ffe395] mb-2 block font-label uppercase">RQ3: Motivation</span>
+<h4 class="text-lg font-headline text-[#dbe3f4]/90 group-hover:text-[#ffe2ab] transition-colors">What motivational factors influence the choice and persistence of language apps?</h4>
+</div>
+<span class="material-symbols-outlined text-[#504532] group-hover:text-[#ffe2ab]" data-icon="arrow_forward_ios">arrow_forward_ios</span>
+</div>
+</div>
+</section>
+<!-- Meet the Researcher Section -->
+<section class="px-6 py-20 bg-[#070e1a]/50">
+<h2 class="text-[#ffe395] font-label text-[10px] uppercase tracking-widest mb-12">Meet the Researcher</h2>
+<div class="flex flex-col gap-8">
+<div class="w-24 h-24 rounded-full overflow-hidden border-2 border-[#ffe2ab]">
+<img alt="Jihye Kim, Ph.D." class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDlzRWUz59aY5-UY5kt43FzVQFEOGLRyFZeOcZbFagAldMoLMPyqYNwS-DnP8LCb5BXqO-ahDpV-XD0xHC1hkMR-JAZgbVwSAbGOhWYjnfXi3jsG9PWONzQgcJ69xYAq-Rd0IM2XHOlmxteqZq6orBNjP8PWjsI0u67TygC7qIRlJFhXQOamJkSaleRDUYLbfcE3mZnm1xKk1-hX358VP4aXCLlo8SQ6Whx93SfGzs2xWR6AIQ1CNHyMMwCgwcO-i1h_8H3xHPYhKA"/>
+</div>
+<div>
+<h3 class="text-3xl font-headline italic text-[#ffe2ab] mb-4">Jihye Kim, Ph.D.</h3>
+<p class="text-sm font-body text-[#dbe3f4]/80 leading-relaxed mb-6">
+                        A scholar at the University of South Florida, Dr. Kim's dissertation was inspired by her own grandparents' journey with digital learning. Her research has been supported by prestigious grants from the National Federation of Modern Language Teachers Associations (NFMLTA) and Duolingo.
+                    </p>
+<div class="flex flex-wrap gap-4">
+<span class="px-3 py-1 bg-surface-container-highest text-[#ffe395] text-[10px] font-label uppercase tracking-wider rounded-full">NFMLTA Grantee</span>
+<span class="px-3 py-1 bg-surface-container-highest text-[#ffe395] text-[10px] font-label uppercase tracking-wider rounded-full">Duolingo Grantee</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="w-full py-12 px-8 mb-20 bg-[#070e1a] flex flex-col items-start space-y-4">
+<div class="font-serif text-[#ffe2ab] text-xl">The Scholarly Editorial</div>
+<div class="font-sans text-xs tracking-tight text-[#dbe3f4]/50 flex flex-col space-y-2">
+<a class="text-[#ffe2ab] underline decoration-[#ffb4a5]/30 underline-offset-4 hover:text-[#ffe2ab] transition-colors" href="#">Contact Researcher</a>
+<a class="text-[#dbe3f4]/50 hover:text-[#ffe2ab] transition-colors" href="#">Research Methodology</a>
+<a class="text-[#dbe3f4]/50 hover:text-[#ffe2ab] transition-colors" href="#">Full Publication</a>
+</div>
+<p class="font-sans text-[10px] tracking-tight text-[#dbe3f4]/30 mt-8">© Jihye Kim, Ph.D. — University of South Florida</p>
+</footer>
+</main>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 left-0 w-full flex justify-around items-center px-4 pb-4 pt-2 bg-[#0c141f]/90 backdrop-blur-2xl shadow-2xl z-50 rounded-t-xl border-t border-[#504532]/15">
+<div class="flex flex-col items-center justify-center bg-[#2d3542] text-[#ffe2ab] rounded-xl px-3 py-1 active:scale-90 transition-transform">
+<span class="material-symbols-outlined" data-icon="auto_stories">auto_stories</span>
+<span class="font-sans uppercase tracking-widest text-[10px] mt-1">Intro</span>
+</div>
+<div class="flex flex-col items-center justify-center text-[#dbe3f4]/60 px-3 py-1 hover:bg-[#141c28] active:scale-90 transition-transform">
+<span class="material-symbols-outlined" data-icon="lightbulb">lightbulb</span>
+<span class="font-sans uppercase tracking-widest text-[10px] mt-1">Insights</span>
+</div>
+<div class="flex flex-col items-center justify-center text-[#dbe3f4]/60 px-3 py-1 hover:bg-[#141c28] active:scale-90 transition-transform">
+<span class="material-symbols-outlined" data-icon="analytics">analytics</span>
+<span class="font-sans uppercase tracking-widest text-[10px] mt-1">Data</span>
+</div>
+<div class="flex flex-col items-center justify-center text-[#dbe3f4]/60 px-3 py-1 hover:bg-[#141c28] active:scale-90 transition-transform">
+<span class="material-symbols-outlined" data-icon="mail">mail</span>
+<span class="font-sans uppercase tracking-widest text-[10px] mt-1">Contact</span>
+</div>
+</nav>
+</body></html>

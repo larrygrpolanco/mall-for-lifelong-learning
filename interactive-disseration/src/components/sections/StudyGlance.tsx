@@ -19,7 +19,7 @@ export function StudyGlance() {
         </SectionReveal>
 
         {/* Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-px bg-cream-deep">
+        <div className="grid grid-cols-2 md:grid-cols-2 gap-px bg-cream-deep">
           {stats.map((stat, i) => (
             <SectionReveal key={stat.label} delay={0.05 * i}>
               <div className="bg-cream-alt p-6 md:p-8">

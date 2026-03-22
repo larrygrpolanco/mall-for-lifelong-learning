@@ -31,12 +31,12 @@ export function CaseStudies() {
         <SectionReveal>
           <p className="text-kicker text-gold mb-4">Case Study Participants</p>
           <p className="font-serif italic text-navy-light text-lg mb-14 max-w-xl">
-            Six in-depth participants — the human stories at the heart of this research.
+            {/* The human stories at the heart of this research. */}
           </p>
         </SectionReveal>
 
         <motion.div
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:[&>*:last-child]:col-span-2 sm:[&>*:last-child]:max-w-[50%] sm:[&>*:last-child]:mx-auto lg:[&>*:last-child]:col-span-1 lg:[&>*:last-child]:max-w-full"
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"

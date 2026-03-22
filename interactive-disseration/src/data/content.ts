@@ -17,22 +17,20 @@ export const takeaways = [
   {
     number: '02',
     headline: 'Sustained High Motivation',
-    body: 'Unlike younger demographics who often drop off, the 60+ cohort maintained rock-solid motivation for 10 weeks. Their drive is deeply intrinsic: leisure, travel, and a critical focus on maintaining cognitive health and brain plasticity.',
+    body: 'Unlike younger demographics who often drop off, the 60+ cohort maintained motivation for 10 weeks. Their drive is mostly intrinsic: leisure, travel, and a critical focus on maintaining cognitive health and brain plasticity.',
   },
   {
     number: '03',
     headline: 'The Power of Repetition',
-    body: 'While younger learners often criticize repetitive content, older adults actively sought it out as a core feature. They redo lessons to achieve mastery, viewing redundancy as an essential tool for memory reinforcement and brain health.',
+    body: 'While younger learners often criticize repetitive content, older adults actively sought it out as a core feature. They redo lessons to achieve mastery, viewing repetition as an essential tool for memory reinforcement and brain health.',
   },
-]
+];
 
 export const stats = [
   { value: 15, suffix: '', label: 'Participants' },
   { value: 10, suffix: '', label: 'Weeks Duration' },
   { value: 6, suffix: '', label: 'Case Studies' },
-  { value: 93, suffix: '%', label: 'Retention Rate' },
-  { value: 1410, suffix: '', label: 'Minutes — Young-cheol' },
-  { value: 5440, suffix: '', label: 'XP Earned — Ken' },
+  { value: 93, suffix: '%', label: 'Retention Rate' }
 ]
 
 export const statsAgeRange = '60–83'
@@ -83,17 +81,6 @@ export const researchQuestions = [
 
 export const caseStudies = [
   {
-    name: 'Jung-ja',
-    age: 78,
-    location: 'Korea',
-    l1: 'Korean',
-    education: 'Elementary',
-    occupation: 'Part-time welfare work',
-    rq: 'RQ2',
-    quote: "Now I know how to look up things you don't know. That's the thing that you get while studying English.",
-    context: "The researcher's grandmother. Started on her granddaughter's recommendation. Learned to use Naver independently. Pride in digital literacy growth.",
-  },
-  {
     name: 'Young-cheol',
     age: 83,
     location: 'Korea',
@@ -116,28 +103,6 @@ export const caseStudies = [
     context: 'Used Duolingo primarily for cognitive health. Lives in rural Korea with no practical need for English. Connected with family on the app.',
   },
   {
-    name: 'Alison',
-    age: 66,
-    location: 'Canada',
-    l1: 'English',
-    education: 'MD',
-    occupation: 'Part-time radiologist',
-    rq: 'RQ1',
-    quote: 'They don\'t really ask for feedback directly... because they could make their program even better.',
-    context: 'Long-time paying subscriber. Loved short sessions for her unpredictable schedule. Used external resources to compensate for gaps.',
-  },
-  {
-    name: 'Dale',
-    age: 70,
-    location: 'Alabama, US',
-    l1: 'English',
-    education: 'BA',
-    occupation: 'Retired nurse',
-    rq: 'RQ2',
-    quote: 'Duolingo only works as a TOOL and users cannot realistically rely on the app alone to learn a language.',
-    context: 'German speaker learning Spanish for 5 years. Supplemented with soap operas, grammar textbooks, and external tests. Traveled to Costa Rica mid-study.',
-  },
-  {
     name: 'Ken',
     age: 64,
     location: 'Oregon, US',
@@ -147,21 +112,19 @@ export const caseStudies = [
     rq: 'RQ3',
     quote: 'Learning a language is like a puzzle. I like puzzles.',
     context: '10-year Duolingo veteran. Earned 5,440 XP with only ~10 min/session — strategic optimizer. Fully aware gamification metrics don\'t equal proficiency.',
-  },
+  }
 ]
 
 export const researcher = {
   name: 'Jihye Kim, Ph.D.',
   institution: 'University of South Florida',
   department: 'Department of World Languages',
-  bio: "Dr. Kim's dissertation was inspired by her own grandparents' journey with digital learning — Jung-ja and Young-cheol, two of the six case study participants. Her research bridges mobile technology, second language acquisition, and the lived experience of aging learners.",
+  bio: "Her dissertation was inspired by her own grandparents' journey with digital learning — Jung-ja and Young-cheol, two of the six case study participants. Her research explores mobile technology, second language acquisition, and the lived experience of aging learners.",
   grants: ['NFMLTA Grantee', 'Duolingo Research Grantee'],
   dedication: 'Dedicated to Jung-ja and Young-cheol: "Your love and passion brought me here."',
 }
 
 export const whyItMatters = [
   'Over 800 million people use Duolingo globally — yet only ~2 prior studies examined the 60+ demographic.',
-  'Older adults activate different brain regions during language learning and adopt technology differently.',
   'Language learning may help prevent cognitive decline — and these participants knew this and cited it as motivation.',
-  "This research directly challenges deficit-based narratives. These learners were not passive or confused — they were competent, strategic, and persistent.",
 ]

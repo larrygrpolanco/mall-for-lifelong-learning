@@ -103,11 +103,10 @@ export function Footer() {
         <SectionReveal>
           <p className="text-kicker text-gold-bright mb-6">Continue the Conversation</p>
           <h2 className="text-headline-italic text-on-dark text-5xl md:text-6xl mb-8 max-w-2xl">
-            Let's continue the conversation.
+            Contact
           </h2>
           <p className="text-on-dark-muted font-sans text-base leading-relaxed mb-12 max-w-lg">
-            This research was presented as a doctoral dissertation at the University of South Florida, 2026.
-            Interested in this work? Reach out to Dr. Kim.
+            Have questions or thoughts? I'd love to hear from you. feel free to reach out!
           </p>
 
           <ContactForm />

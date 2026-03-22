@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Newsreader", Georgia, serif;
+  --font-sans: "Manrope", system-ui, sans-serif;
+
+  /* Cream / light backgrounds */
+  --color-cream: #faf9f6;
+  --color-cream-alt: #f0ece3;
+  --color-cream-deep: #e5dfd4;
+
+  /* Navy */
+  --color-navy: #0c141f;
+  --color-navy-mid: #1a2535;
+  --color-navy-light: #3a4a5e;
+  --color-slate: #7a8a9e;
+  --color-slate-light: #aab4c0;
+
+  /* Gold — for text/borders on light backgrounds, needs to be darker */
+  --color-gold: #c9900c;
+  --color-gold-dark: #8a6200;
+  --color-gold-bright: #fbbc00;
+  --color-gold-pale: #fff8e1;
+  --color-gold-bar: #fbbc00;
+
+  /* Text on dark sections */
+  --color-on-dark: #dbe3f4;
+  --color-on-dark-muted: #8a9ab0;
+
+  /* Surface containers (for dark footer/hero sections) */
+  --color-surface: #0c141f;
+  --color-surface-low: #141c28;
+  --color-surface-mid: #18202c;
+  --color-surface-high: #222a37;
+
+  --radius-sm: 0.125rem;
+  --radius-md: 0.25rem;
+  --radius-lg: 0.5rem;
+  --radius-full: 0.75rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: #faf9f6;
+  color: #0c141f;
+  font-family: "Manrope", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100svh;
+}
+
+/* Editorial typographic utilities */
+.text-kicker {
+  font-family: "Manrope", sans-serif;
+  font-size: 0.625rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.text-display {
+  font-family: "Newsreader", serif;
+  font-style: italic;
+  letter-spacing: -0.02em;
+  line-height: 1.05;
+}
+
+.text-headline {
+  font-family: "Newsreader", serif;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+
+.text-headline-italic {
+  font-family: "Newsreader", serif;
+  font-style: italic;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}

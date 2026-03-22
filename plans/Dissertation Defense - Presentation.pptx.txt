@@ -1,0 +1,419 @@
+MALL for lifelong learning:
+Older adults’ self-directed learning via Duolingo 
+Dissertation Defense
+Jihye Kim // 02/19/2026
+Good afternoon, everyone. Thank you to my committee and guests for joining me today. I am please to present my dissertation, titled: 
+
+Presentation overview 
+Introduction 
+RQs
+Methods 
+Duolingo 
+Participants 
+Data collection and analysis
+Findings 
+RQ1: UX 
+RQ2: Self-monitoring 
+RQ3: Motivation 
+Discussion and Conclusion 
+UNIVERSITY OF SOUTH FLORIDA
+Here’s a brief overview of today’s presentation. I will begin by outlining the research topic and research questions. Then, I will focus the majority of our time on the methodology, key findings, and the discussion. 
+
+Introduction
+So, let’s begin with the Introduction. 
+
+Mobile-Assisted Language Learning (MALL)
+MALL is simply defined as “the use of mobile technology in language learning” (Miangah & Nezarat, 2012, p. 311)
+
+The portability of mobile devices provides more diverse ways of learning languages, allowing personalized learning opportunities that traditional classroom settings may not easily provide (e.g., Kukulska-Hulme, 2009; Thornton & Houser, 2005).
+
+Among various types of technologies, commercial MALL apps have been examined in terms of the effectiveness across a variety of learner contexts. 
+UNIVERSITY OF SOUTH FLORIDA
+While definitions vary, Mobile-Assisted Language Learning, or MALL is broadly defined as the use of mobile technology in language learning. 
+Its primary advantage is portability, allowing learners to engage with the language anytime and anywhere, extending learning well beyond the classroom. 
+While various technologies exist, commercial MALL apps like Duolingo have received significant attention due to their global availability and accessibility. 
+
+Commercial MALL apps 
+Noticeable scholarly attention has been paid to undergraduate students. 
+Studies in this context often highlight participants’ positive experiences (e.g., He & Loewen, 2022). 
+Puebla et al. (2022) investigates older adults’ engagement with MALL apps
+The participants exhibited generally low levels of user satisfaction and few positive learning experiences 
+The authors argue for more attention to this demographic. 
+
+However, a review of the literature reveals that research has predominantly focused on younger learners in formal educational settings, specifically undergraduate students, and they generally evaluate these apps positively. 
+On the contrary, very few studies have examined populations outside this demographic. Notably, Puebla et al investigated older adults, and their findings differed greatly from younger learners. This study’s participants reported low satisfaction and few positive experiences. Consequently, they argued for more attention to this demographic. 
+5
+
+Current study
+Despite the rapid increase of global older adult population (United Nations, 2020), their specific experiences with MALL remains under-researched. 
+
+The current study examines older adults’ (individuals aged 60 and above) engagement with Duolingo in informal learning environments, focusing on three constructs: user experience (UX), motivation, and metacognition.
+
+This research gap is critical given the rapid increase of the global older adult population. 
+Therefore, this study examines older adults’ engagement with Duolingo in informal learning environments. I specifically focused on three constructs, User Experience (UX), Motivation, and Metacognition. 
+6
+
+Current study
+Informed by Garrison’s (1997) Self-Directed Learning (SDL) model.
+“what learners do during the learning process” 
+metacognition/
+metacognitive strategies
+→ dynamic and mutually influential 
+I utilized Garrison’s Self-Directed Learning Model. As shown in this figure, Garrion conceptualizes self-directed learning not as an isolated act, but as the interplay between self-management, which is what they actually do, self-monitoring (their metacognitive strategies), and motivation. Importantly, Garrison argues that these constructors are dynamic and mutually influential. 
+
+7
+
+RQs
+RQ1: What is the nature of older adults’ UX (e.g., attitudes, perceived benefits and drawbacks) when using Duolingo for language learning in informal settings? To what extent does their UX change over time? 
+
+RQ2: How do older adults utilize Duolingo in terms of self-monitoring practices? 
+
+RQ3: What motivational factors influence older adults to choose Duolingo initially (i.e., entering motivation) and to continue using it over time (i.e., task motivation)? 
+Based on this model, I formulated three research questions: 
+RQ1 examines user experience, which can be defined as the participants’ attitudes and perceptions, specifically the benefits and drawbacks they perceived while using the app. I also explored how this UX evolved over time, based on Garrison’s argument that these constructs are dynamic and constantly influencing one another. 
+RQ2 investigates self-monitoring strategies. Here, I examined the specific strategies older adults employ to manage their learning, focusing on their metacognition and metacognitive awareness. 
+and RQ3 explores motivation. Drawing on Garrison’s framework, I divided this into two distinct categories. First, I examined Entering motivation, which is the initial driving force that led them to choose Duolingo for language learning. Second, I looked at task motivation, which is the sustained effort and volition required to continue their language learning journey. 
+8
+
+Methods
+Moving on to the Methodology 
+
+
+Duolingo is a freely available language learning platform founded by Luis von Ahn and Severin Hacker in 2010. 
+
+Currently, Duolingo offers over 280 course teaching more than 40 languages (Blanco, 2025) and has exceeded 50 million daily active users (Duolingo Inc., 2025). 
+
+Duolingo
+UNIVERSITY OF SOUTH FLORIDA
+Image by Duolingo
+I selected Duolingo as the platform of inquiry for several reasons
+It is freely available worldwide 
+It offers over 40 languages and it is the most globally popular language app
+
+
+The sampling criteria for this study pertain to individuals: 
+those aged 60 years and over (Puebla et al., 2022; United Nations, 2020); 
+those currently engaging with Duolingo for informal language learning;
+those whose L1 is either Korean or English 
+
+For recruitment, a combination of convenience and snowball sampling methods was employed.
+  
+Consequently, a total of 15 older adults engaged in this study, and 6 participants were selected for case study.  
+Participants: Sampling criteria and recruitment 
+UNIVERSITY OF SOUTH FLORIDA
+Before participant recruitment, I established specific criteria for participation. I recruited individuals aged 60 and above who were currently using Duolingo in informal settings. Additionally, I restricted participation to native speakers of either Korean or English. Given the study’s emphasis on qualitative data, it was essential that I be able to capture the full nuance and ensure accurate interpretation of their narratives. 
+Given this specific target population, I employed convenience and snowball sampling. I utilized my personal and professional network to reach potential participants. 
+Ultimately, 15 older adults engaged in the study. From this group, six were selected for in-depth case studies. 
+
+UNIVERSITY OF SOUTH FLORIDA
+Category 1
+Category 2
+n (%)
+Gender
+Female
+10 (66.7%)
+Male
+5 (33.3%)
+L1
+English 
+9 (60%)
+Korean
+6 (40%)
+Previous language learning experience(s)
+Yes
+5 (33.3%)
+No
+10 (66.7%)
+Age
+60-69
+8 (53.3%)
+70-79
+6 (40%)
++80
+1 (6.7%)
+Highest education
+Elementary school 
+2 (13.3%)
+High school
+3 (20%)
+BA
+5 (33.3%)
+PhD/M.D.
+5 (33.3%)
+Table 2. Demographic information of the participants (N = 15)
+This table summarizes the participant demographics. While all categories are relevant, I want to highlight the diversity in age and education. 
+Regarding age, we had 8 participants in their 60s, 6 in their 70s, and one participant who was 83. 
+As for education, we saw a broad range, from participants with PhDs and MDs to those who had completed elementary school. 
+
+Here are six case study participants. In this presentation, I will briefly introduce Ken and Jun-ja’s case. 
+13
+
+To gain a deeper understanding of older adults’ engagement with Duolingo, I employed a concurrent mixed methods approach with an emphasis on multiple qualitative data types.
+Over a period of 10 weeks, I gathered: 
+a background questionnaire 
+pre- and post-questionnaires (multiple-choice, open-ended, closed-ended items with 7-point Likert scale)  
+activity tracking (Duolingo for Schools) 
+reflective journals (prompted)
+semi-structured interviews 
+Data collection
+UNIVERSITY OF SOUTH FLORIDA
+I employed a concurrent mixed-methods approach with an emphasis on qualitative data. 
+Over a 10-week period, I collected data via background questionnaire, pre- and post-questionnaires, activity tracking, three reflective journal entries, and semi-structured interviews. 
+
+Data collection
+UNIVERSITY OF SOUTH FLORIDA
+W1
+W10
+W3
+W6
+W9
+pre-
+questionnaire
+journal 1
+journal 2
+journal 3
+post-
+questionnaire
+Interviews
+activity tracking
+As shown in the table on the left, I utilized multiple data types to answer each research question. 
+The timeline on the right illustrates exactly when each data point was collected across the 10 weeks. 
+
+RQ 1 (UX) 
+Descriptive statistics, t-tests (Wilcoxon signed-rank test), and thematic analysis
+RQ 2 (self-monitoring) 
+ thematic analysis (two phase coding) 
+RQ 3 (motivation) 
+Descriptive statistics, t-tests (Wilcoxon signed-rank test), and thematic analysis
+Trustworthiness 
+Data triangulation
+Member checking 
+Data analysis 
+UNIVERSITY OF SOUTH FLORIDA
+The data were anlayzed both quantitatively and qualitatively.
+For RQ1 and RQ3: Closed-ended survey responses were analyzed using descriptive statistics and t-tests, while open-ended responses and interviews were analyzed thematically. Before t-tests, I first conducted Shapiro-Wilk test to check for normality. In cases where the data deviated from a normal distribution, I employed the non-parametric alternative, the Wilcoxon signed-rank test.
+In terms of RQ2, the qualitative data from reflective journals were analyzed using thematic analysis. I first deductively coded using Zimmerman’s learning strategies framework, followed by inductive coding for emerging themes. 
+I also utilized triangulation across data types to ensure consistency and conducted member checking with the case study participants to validate my interpretations. 
+
+Findings
+Now, I will present the key findings. 
+
+A broad overview of participants’ UX 
+
+RQ1: UX 
+UNIVERSITY OF SOUTH FLORIDA
+Regarding UX, participants showed generally positive attitudes throughout the research period. 
+Notably, their UX remained stable, with no statistically significant differences between pre- and post-questionniares. 
+The item regarding “Recommendation willingness” received the highest scores in both questionnaires. 
+
+Salient themes that captured participants’ UX - Perceived benefits 
+General MALL benefits (Availability, Gamification, Personalized learning, Free subscription/low cost) 
+Instruction format (+) (Repetition, Overall format, Interactive elements, Feedback) 
+Helpful for language learning (Listening, Grammar …) 
+Helpful for brain health 
+
+RQ1: UX 
+UNIVERSITY OF SOUTH FLORIDA
+“Its availability allows me to study a language in my pajamas at any hour of the day.” P1
+“It’s fun to learn like a game, so it’s not boring.” P3
+“as I approach the age of 73, Duolingo helps to keep my mind sharp.” P1
+Thematic analysis revealed specific factors for this positive UX. 
+The most salient category was “General MALL Benefits” Under this category, participants praised the apps’ availability, gamification, personalized learning, and low cost. 
+For example, P1 noted the comfort of learning languages in his pajamas 
+P3 highlight that gamification kept the process engaging 
+Crucially, several participants mentioned Cognitive Maintenance as a key benefit. 
+As seen in this quote, P1 stated that Duolingo helps keeps his mind sharp, linking language learning directly to brain health. 
+
+Older adults’ self-monitoring practices while using Duolingo 
+Self-evaluating (Growth/Improvement, Frustration/Feeling of ineffectiveness, Finding personalized strategies, Age) 
+Organizing and transforming (Repetition) 
+
+
+RQ2: Self-monitoring
+UNIVERSITY OF SOUTH FLORIDA
+“I was happy with how much I was able to communicate in Spanish. Duolingo played a major role in this accomplishment” P7
+“I’m old I’m slow I’ll take what I can get. Actually pretty proud of myself to get this far” P8
+“Restudy the level again. Back to basics” P4
+“Usually, I will repeat the audio to ensure I’m hearing correctly.” P9
+For RQ2, I examined self-monitoring strategies. Among seven categories emerged, I will introduce two categories today.  
+The most salient category was self-evaluating behavior. Participants actively evaluate their progress. Many participants evaluated their learning journey positively, as seen in P7’s quote. There was also age-related self-evaluation. While some age-related evaluations were negative, one participant showed positive reflection, as you can see. 
+Additionally, participants also showed app-specific strategies. Rather than passively following the app, they manipulated it to suit their needs, specifically regarding repetition. 
+P4 repeated content at the macro level 
+while P9 repeated audio at the micro level to ensure comprehension. 
+
+Case study: Jung-ja (Learning English)
+A 78-year-old woman who speaks Korean as her L1 and lives in South Chungcheong Province, Korea 
+Highest education: elementary school
+Jung-ja’s experience illustrates how older adult learner with limited formal education can cultivate self-monitoring practices through sustained engagement with MALL. 
+RQ2: Self-monitoring
+UNIVERSITY OF SOUTH FLORIDA
+I want to highlight the case of Jung-ja. 
+She is a 78-year-old Korean L1 speaker with an elementary school education. 
+I selected her because she illustrates how an older adult with limited formal education can cultivate sophisticated self-monitoring practices. 
+
+RQ2: Self-monitoring
+UNIVERSITY OF SOUTH FLORIDA
+“As I get older, I keep losing things and have to learn them over and over again.”
+“(...) I think I can do it if I keep doing it”
+The thematic analysis of jung-ja’s three journal entries reveals a developmental trajectory in her self-monitoring strategies. While I identified a wide range of strategies across her journals and interview, for today’s presentation, I will focus specifically on her self-evaluating behaviors. 
+In her first entry, her initial evaluations were negative and age-focused, mentioning inability to memorize. 
+The second entry represented a transitional phase. Here, we observe a mix of frustration, satisfaction, and adaptation. She began to actively develop personalized strategies, moving from passive worry to active problem-solving. 
+Her last entry showed a consolidation of these strategies, resulting in a positive self-evaluation centered on competence and growth. 
+Jung-ja’s trajectory demonstrates that despite initial challenges, Jung-ja possessed the metacognitive awareness to identify her specific needs and to act on them effectively. 
+
+A broad overview of participants’ motivation  
+
+RQ3: Motivation
+UNIVERSITY OF SOUTH FLORIDA
+ 
+Pre-questionnaire scores
+Post-questionnaire scores
+Item
+M
+SD
+M
+SD
+10-e. Expectancy (i.e., learners’ belief)
+5.9
+1.3
+6.1
+1.1
+10-f. Maintenance of learning effort 
+6.1
+1.1
+6.5
+0.8
+10-g. Learning enjoyment
+6.4
+1.0
+6.4
+0.6
+10-h. Long-term learning intention
+6.3
+0.8
+6.3
+0.9
+10-i. Duolingo-driven learning motivation
+6.1
+1.1
+6.4
+0.5
+Finally, for RQ3, I examiend entering motivation to see why they started language learning with Duolingo and task motivation to see why they continue. 
+Quantitative results showed high motivation for both, with no significant increase or decline over time. 
+This is an interesting finding, as it contradicts the findings with younger learners, where motivation tends to decrease after the first few weeks of the study. 
+
+Case study: Ken (Learning Spanish) 
+A 64-year-old male who speaks English as his L1 and resides in Oregon, USA. 
+With his PhD, he works full-time in Computer Science. 
+Ken’s case illustrates how multiple entering motivation can sustain long-term MALL engagement among highly educated older learners. 
+RQ3: Motivation
+UNIVERSITY OF SOUTH FLORIDA
+The case of Ken perfectly illustrates the interplay of these motivational factors. 
+Ken is a 64-year-old PhD holder working in computer science. 
+It shows a sharp contrast to Jung-ja
+
+
+
+Ken’s entering motivation 
+Social/family bonding 
+Leisure
+Cognitive maintenance 
+RQ3: Motivation
+UNIVERSITY OF SOUTH FLORIDA
+“I had some spare time that I need to fill and so you know, there’s only so much you could do at [a] time. And unfortunately for me [...] you know, I can’t walk around like for hours like I used to be able to. So it was to both keep my mind stimulated and give me something. [...] As you get older, you know you need a couple of activities to keep yourself from, you know, just turing to vegetables.”  
+Ken identified three entering motivations, including social/family bonding, leisure, and cognitive maintenance. 
+Interestingly, Leisure and Cognitive maintenance were intertwined. His age-related physical constraints prompted him to choose language learning as a sedentary leisure activity that also served to prevent cognitive deterioration. 
+This combination has sustained his engagement for 10 years. 
+
+Ken’s task motivation  
+Gamified elements  
+RQ3: Motivation
+UNIVERSITY OF SOUTH FLORIDA
+“So if I see it’s a Friday and that like I’m at the very bottom [of the] Diamond League, then I’ll work extra hard to like, get up higher and sometimes I even look like on the weekend if I have to. I’ll do it on there so. [...] it does convince me to. And you know all these triple points bonuses and stuff like that [...] it really does work.”  
+His primary driver for continued daily engagement was gamification. 
+As you can see in these excerpts, the gamified elements compel him to log in daily. 
+
+Ken’s task management 
+RQ3: Motivation
+UNIVERSITY OF SOUTH FLORIDA
+10 minutes per session
+Ken’s strategic use of the app to maximize gamified rewards effectively
+His continued engagement can be seen in his activity tracking data. 
+He invested about 10 minutes per session. 
+His XP earnings were very high relative to his time investment compared to other participants. This indicates strategic use of the app to maximize rewards. 
+In this regard, Ken explicitly stated that while he knows XP doesn’t equal linguistic fluency, the system works for him to maintain the habit. 
+
+Discussion & Conclusion
+Having reviewed the findings, I will move to the Discussion and Conclusion. 
+
+
+General Discussion and Implications
+ Garrison’s (1997) SDL model allowed for the understanding of self-management not as an isolated act, but as the interplay of resources, context, metacognition, and motivation.
+ 
+ High persistence and consistency show that older adults are competent, active digital learners. 
+
+ Their unique preference (e.g., repetition, cognitive health) highlights the importance of older adults as a vital, yet under recognized, demographic for MALL research and industry. 
+UNIVERSITY OF SOUTH FLORIDA
+Three major implications emerge from this study. 
+Regarding my theoretical framework, Garrison’s model provided a holistic understanding of older adults’ language learning experience, as it prompted me to view their learning not as isolated acts but as a cumulative result of resources, context, and motivation. 
+And we found that learner competence in this demographic. The persistence and consistency observed demonstrates that older adults are competent, active digital learners. 
+It leads to the importance of this demographic. Their unique preferences, such as the focus on cognitive health, and preference for repetition, highlight them as a vital demographic for both SLA research and the MALL industry. 
+
+Limitations and Future Research Directions
+Recruitment of current Duolingo users might have favored intrinsically motivated learners; future research might consider targeting novice users. 
+
+Recruitment challenges specific to this age group included wariness of online fraud and unfamiliarity with tools (e.g., Qualtrics).
+
+The use of structured, prompted reflective journals potentially influenced participants’ metacognitive reflection; less intrusive methods are recommended. 
+Finally, I should address the limitations of this study, which offer important directions for future research. 
+First, recruiting current users likely favored intrinsically motivated learners. Futures studies should target novice users as well. 
+Second, I encountered recruitment barriers due to older adults’ fears of online fraud.  Many older adults were hesitant to click survey link. Reflecting on this, I realized that while Qualtrics is a standard tool for us in academia, to an older adult outside the university setting, an unfamiliar URL looks suspicious. This highlights a critical need for building trust and maybe utilizing different recruitment channels rather than relying solely on digital distribution. 
+Lastly, using structured journal prompts may have influenced the data. One participant, Jung-ja, explicitly mentioned that the prompts ‘made her think.’ While this enhanced her learning, it may have influenced the ecological validity. Future research might consider less intrusive methods, such as screen recording with think-aloud protocols. 
+30
+
+Thank you :) 
+That concludes my presentation. I once again thank committee members and audience for your time and attention. Thank you so much. 
+
+Salient themes that captured participants’ UX - Perceived drawbacks
+Instruction format (-) (Lack of explanation, Lack of practices/stories, Lack of authentic/cultural input, Instruction order/pace, grammar) 
+Functions and features (-) (Errors and mistakes, Unattractive functions and features) 
+Free version limit (Ads, Limited Access)
+Lack of customer service 
+RQ1: UX 
+UNIVERSITY OF SOUTH FLORIDA
+“Limited drills on things like conjugation of verbs” P5
+“I have found Duolingo to have VERY POOR customer service. There is no number to call (...) and they do not respond to email. ” P7
+move after the Thank you slides 
+
+Case study: Sung-jin 
+A participant aged 68, resides in Jae-Cheon, located in the North ChungCheong Province of South Korea. 
+RQ1: UX 
+UNIVERSITY OF SOUTH FLORIDA
+
+Case study: Sung-jin 
+A participant aged 68, resides in Jae-Cheon, located in the North ChungCheong Province of South Korea. 
+RQ1: UX 
+UNIVERSITY OF SOUTH FLORIDA
+
+Entering motivation of using Duolingo 
+Leisure 
+Cognitive maintenance 
+Functional application 
+Social/family bonding 
+Acculturation 
+
+RQ3: Motivation
+UNIVERSITY OF SOUTH FLORIDA
+“To prevent dementia” P4
+“[it] keeps my mind learning.” P5
+
+Task motivation of using Duolingo 
+(+) Gamified elements 
+(+) Social accountability 
+(+) Study-influenced commitment 
+(-) Social priorities & Temporal conflicts 
+
+RQ3: Motivation
+UNIVERSITY OF SOUTH FLORIDA
+“Learning continuously with people you know motivates you to learn” P2
+“This whole process was extremely enjoyable and kept me motivated” P11

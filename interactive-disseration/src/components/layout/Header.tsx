@@ -22,7 +22,7 @@ export function Header() {
       }}
     >
       <a href="#" className="text-navy font-serif italic text-lg tracking-tight hover:text-gold transition-colors">
-        The Scholarly Editorial
+        Chaone Labs Editorial
       </a>
 
       <nav className="hidden md:flex items-center gap-8">

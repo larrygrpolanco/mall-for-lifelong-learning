@@ -26,41 +26,48 @@ const rqColors: Record<string, string> = {
 
 export function CaseStudies() {
   return (
-    <section id="case-studies" className="bg-cream py-24 px-6">
-      <div className="max-w-5xl mx-auto">
+    <section id='case-studies' className='bg-cream py-24 px-6'>
+      <div className='max-w-5xl mx-auto'>
         <SectionReveal>
-          <p className="text-kicker text-gold mb-4">Case Study Participants</p>
-          <p className="font-serif italic text-navy-light text-lg mb-14 max-w-xl">
+          <p className='text-kicker text-gold mb-4'>
+            Case Study Participants · Pseudonyms
+          </p>
+          <p className='font-serif italic text-navy-light text-lg mb-14 max-w-xl'>
             {/* The human stories at the heart of this research. */}
           </p>
         </SectionReveal>
 
         <motion.div
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:[&>*:last-child]:col-span-2 sm:[&>*:last-child]:max-w-[50%] sm:[&>*:last-child]:mx-auto lg:[&>*:last-child]:col-span-1 lg:[&>*:last-child]:max-w-full"
+          className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:[&>*:last-child]:col-span-2 sm:[&>*:last-child]:max-w-[50%] sm:[&>*:last-child]:mx-auto lg:[&>*:last-child]:col-span-1 lg:[&>*:last-child]:max-w-full'
           variants={containerVariants}
-          initial="hidden"
-          whileInView="visible"
+          initial='hidden'
+          whileInView='visible'
           viewport={{ once: true, margin: '-60px' }}
         >
           {caseStudies.map((person) => (
             <motion.article
               key={person.name}
               variants={cardVariants}
-              whileHover={{ y: -4, boxShadow: '0 12px 40px rgba(12, 20, 31, 0.1)' }}
+              whileHover={{
+                y: -4,
+                boxShadow: '0 12px 40px rgba(12, 20, 31, 0.1)',
+              }}
               transition={{ duration: 0.2 }}
-              className="bg-cream-alt rounded-md p-6 flex flex-col gap-4"
+              className='bg-cream-alt rounded-md p-6 flex flex-col gap-4'
               style={{ boxShadow: '0 2px 12px rgba(12, 20, 31, 0.05)' }}
             >
               {/* Header */}
-              <div className="flex items-start justify-between gap-2">
+              <div className='flex items-start justify-between gap-2'>
                 <div>
-                  <h3 className="text-headline-italic text-navy text-2xl">{person.name}</h3>
-                  <p className="font-sans text-slate text-xs mt-0.5">
+                  <h3 className='text-headline-italic text-navy text-2xl'>
+                    {person.name}
+                  </h3>
+                  <p className='font-sans text-slate text-xs mt-0.5'>
                     Age {person.age} · {person.location}
                   </p>
                 </div>
                 <span
-                  className="text-kicker px-2 py-1 rounded-sm shrink-0"
+                  className='text-kicker px-2 py-1 rounded-sm shrink-0'
                   style={{
                     color: rqColors[person.rq],
                     backgroundColor: `${rqColors[person.rq]}18`,
@@ -71,14 +78,14 @@ export function CaseStudies() {
               </div>
 
               {/* Quote */}
-              <blockquote className="border-l-2 border-gold-bright pl-3">
-                <p className="font-serif italic text-navy text-sm leading-relaxed">
+              <blockquote className='border-l-2 border-gold-bright pl-3'>
+                <p className='font-serif italic text-navy text-sm leading-relaxed'>
                   "{person.quote}"
                 </p>
               </blockquote>
 
               {/* Context */}
-              <p className="font-sans text-xs text-slate leading-relaxed mt-auto">
+              <p className='font-sans text-xs text-slate leading-relaxed mt-auto'>
                 {person.context}
               </p>
             </motion.article>
@@ -86,5 +93,5 @@ export function CaseStudies() {
         </motion.div>
       </div>
     </section>
-  )
+  );
 }

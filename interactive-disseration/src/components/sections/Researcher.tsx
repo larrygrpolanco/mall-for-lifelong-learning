@@ -4,7 +4,7 @@ import headshot from '../../assets/headshot.png'
 
 export function Researcher() {
   return (
-    <section id="researcher" className="bg-navy py-24 px-6">
+    <section id="researcher" className="bg-navy pt-24 pb-6 px-6">
       <div className="max-w-4xl mx-auto">
         <SectionReveal>
           <p className="text-kicker text-gold-bright mb-12">Meet the Researcher</p>
@@ -17,7 +17,7 @@ export function Researcher() {
               <img
                 src={headshot}
                 alt="Jihye Kim"
-                className="w-20 h-20 rounded-full object-cover object-top shrink-0"
+                className="w-28 h-28 rounded-full object-cover object-top shrink-0"
                 style={{ border: '2px solid rgba(251, 188, 0, 0.4)' }}
               />
               <div>
@@ -59,14 +59,6 @@ export function Researcher() {
           </SectionReveal>
         </div>
 
-        {/* Dedication */}
-        <SectionReveal delay={0.3}>
-          <div className="border-t border-navy-mid pt-10 text-center">
-            <p className="font-serif italic text-on-dark/60 text-xl max-w-lg mx-auto">
-              {researcher.dedication}
-            </p>
-          </div>
-        </SectionReveal>
       </div>
     </section>
   )

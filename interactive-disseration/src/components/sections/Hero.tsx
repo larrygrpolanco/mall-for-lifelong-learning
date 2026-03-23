@@ -24,7 +24,7 @@ export function Hero() {
           transition={{ duration: 0.5, delay: 0.1 }}
           className="text-kicker text-gold mb-6"
         >
-          Featured Research · 2026
+          Doctoral Dissertation · 2026
         </motion.p>
 
         {/* Main title */}

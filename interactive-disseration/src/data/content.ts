@@ -12,7 +12,7 @@ export const takeaways = [
   {
     number: '01',
     headline: 'Various Learning Strategies',
-    body: "Older adults aren't passive app users. They employ sophisticated, diverse self-monitoring strategies — writing things down, repeating lessons, seeking external resources like ChatGPT — and actively adapt their approach over time.",
+    body: "Older adults aren't passive app users. They employ sophisticated, diverse self-monitoring strategies (e.g., writing things down, repeating lessons, seeking external resources like ChatGPT) and actively adapt their approach over time.",
   },
   {
     number: '02',
@@ -61,23 +61,29 @@ export const quotes = [
 export const researchQuestions = [
   {
     kicker: 'RQ1: User Experience',
-    question: 'What is the nature of older adults\' UX when using Duolingo for language learning in informal settings? To what extent does their experience change over time?',
-    teaser: 'Consistently positive attitudes, stable over 10 weeks — but with sharp, discerning critiques.',
+    question:
+      "What is the nature of older adults' UX when using Duolingo for language learning in informal settings? To what extent does their experience change over time?",
+    teaser:
+      'Consistently positive attitudes that remained stable over 10 weeks, paired with sharp, discerning critiques.',
     accentColor: '#c9900c',
   },
   {
     kicker: 'RQ2: Metacognition',
-    question: 'How do older adults utilize Duolingo in terms of self-monitoring practices?',
-    teaser: '7 distinct self-monitoring strategies identified — from hand-writing vocab to consulting ChatGPT.',
+    question:
+      'How do older adults utilize Duolingo in terms of self-monitoring practices?',
+    teaser:
+      'Seven distinct self-monitoring strategies identified, ranging from hand-writing vocab to consulting ChatGPT.',
     accentColor: '#c9900c',
   },
   {
     kicker: 'RQ3: Motivation',
-    question: 'What motivational factors influence older adults to choose Duolingo initially and to continue using it over time?',
-    teaser: 'High and stable motivation throughout — driven by leisure, cognitive health, and family connection.',
+    question:
+      'High and stable motivation throughout, driven by leisure, cognitive health, and family connection.',
+    teaser:
+      'High and stable motivation throughout — driven by leisure, cognitive health, and family connection.',
     accentColor: '#c9900c',
   },
-]
+];
 
 export const caseStudies = [
   {
@@ -88,8 +94,10 @@ export const caseStudies = [
     education: 'Elementary',
     occupation: 'Retired (business)',
     rq: 'RQ3',
-    quote: "Rather than not knowing anything, it's better to learn and say things like 'dates' or 'rice.' And you're using it more naturally.",
-    context: "1,410 total minutes over 9 weeks — the most dedicated learner. Averaged 34 min/session, exceeding the platform average.",
+    quote:
+      "Rather than not knowing anything, it's better to learn and say things like 'dates' or 'rice.' And you're using it more naturally.",
+    context:
+      'Logged 1,410 total minutes over nine weeks, the most of any participant. Averaged 34 minutes per session, above the platform average. Started learning English to use it in daily life and to prevent dementia.',
   },
   {
     name: 'Sung-jin',
@@ -100,7 +108,8 @@ export const caseStudies = [
     occupation: 'Retired (marketing)',
     rq: 'RQ1',
     quote: 'Duolingo has a lot more advantages than disadvantages.',
-    context: 'Used Duolingo primarily for cognitive health. Lives in rural Korea with no practical need for English. Connected with family on the app.',
+    context:
+      "Used Duolingo daily for cognitive health, not out of any practical need for English. Started one month before the study on an acquaintance's recommendation. Valued the repetition and stayed connected with family and friends through the app.",
   },
   {
     name: 'Ken',
@@ -111,20 +120,22 @@ export const caseStudies = [
     occupation: 'Computer science',
     rq: 'RQ3',
     quote: 'Learning a language is like a puzzle. I like puzzles.',
-    context: '10-year Duolingo veteran. Earned 5,440 XP with only ~10 min/session — strategic optimizer. Fully aware gamification metrics don\'t equal proficiency.',
-  }
-]
+    context:
+      'A 10 year Duolingo user who earned the highest XP in the study (5,440) while averaging only about 10 minutes per session. Knows gamification scores do not equal real proficiency but enjoys language learning as a way to stay mentally active.',
+  },
+];
 
 export const researcher = {
   name: 'Jihye Kim, Ph.D.',
   institution: 'University of South Florida',
   department: 'Department of World Languages',
-  bio: "Her dissertation was inspired by her own grandparents' journey with digital learning — Jung-ja and Young-cheol, two of the six case study participants. Her research explores mobile technology, second language acquisition, and the lived experience of aging learners.",
+  bio: 'Her dissertation drew inspiration from the experiences of her own grandparents, 정자 and 영철, who were two of the six case study participants. Her research explores mobile technology, second language acquisition, and the lived experience of aging learners.',
   grants: ['NFMLTA Grantee', 'Duolingo Research Grantee'],
-  dedication: 'Dedicated to Jung-ja and Young-cheol: "Your love and passion brought me here."',
-}
+  dedication:
+    '',
+};
 
 export const whyItMatters = [
-  'Over 800 million people use Duolingo globally — yet only ~2 prior studies examined the 60+ demographic.',
-  'Language learning may help prevent cognitive decline — and these participants knew this and cited it as motivation.',
+  'Over 800 million people use Duolingo globally, yet only ~2 prior studies examined the 60+ demographic.',
+  'Language learning may help prevent cognitive decline, and these participants knew this and cited it as motivation.',
 ]

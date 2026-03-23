@@ -98,39 +98,43 @@ function ContactForm() {
 
 export function Footer() {
   return (
-    <footer id="contact" className="bg-navy text-on-dark py-24 px-6">
-      <div className="max-w-4xl mx-auto">
+    <footer id='contact' className='bg-navy text-on-dark pt-0 pb-24 px-6'>
+      <div className='max-w-4xl mx-auto'>
+        <div className='border-t border-navy-mid mb-16' />
         <SectionReveal>
-          <p className="text-kicker text-gold-bright mb-6">Continue the Conversation</p>
-          <h2 className="text-headline-italic text-on-dark text-5xl md:text-6xl mb-8 max-w-2xl">
+          <p className='text-kicker text-gold-bright mb-6'>
+            Continue the Conversation
+          </p>
+          <h2 className='text-headline-italic text-on-dark text-5xl md:text-6xl mb-8 max-w-2xl'>
             Contact
           </h2>
-          <p className="text-on-dark-muted font-sans text-base leading-relaxed mb-12 max-w-lg">
-            Have questions or thoughts? I'd love to hear from you. feel free to reach out!
+          <p className='text-on-dark-muted font-sans text-base leading-relaxed mb-12 max-w-lg'>
+            Have questions or thoughts? I'd love to hear from you. feel free to
+            reach out!
           </p>
 
           <ContactForm />
 
-          <div className="mt-16 border-t border-[#1e2d3f] pt-8 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
-            <div className="flex flex-col gap-1">
-              <p className="font-sans text-[10px] uppercase tracking-widest text-slate">
-                © Jihye Kim, Ph.D. — University of South Florida
+          <div className='mt-16 border-t border-[#1e2d3f] pt-8 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4'>
+            <div className='flex flex-col gap-1'>
+              <p className='font-sans text-[12px] uppercase tracking-widest text-slate'>
+                Jihye Kim, Ph.D. — University of South Florida
               </p>
               <a
-                href="https://chaonelabs.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-sans text-[10px] text-slate/60 hover:text-slate transition-colors"
+                href='https://chaonelabs.com'
+                target='_blank'
+                rel='noopener noreferrer'
+                className='font-sans text-[12px] text-slate/60 hover:text-slate transition-colors'
               >
                 Made by ChaoneLabs.com
               </a>
             </div>
-            <p className="font-serif italic text-slate text-sm">
-              "Your love and passion brought me here."
+            <p className='font-serif italic text-slate text-sm'>
+              Dedicated to 정자 and 영철, Your love and passion brought me here.
             </p>
           </div>
         </SectionReveal>
       </div>
     </footer>
-  )
+  );
 }

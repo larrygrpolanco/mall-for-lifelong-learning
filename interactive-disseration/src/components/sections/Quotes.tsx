@@ -1,9 +1,23 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { AnimatePresence, motion } from 'motion/react'
 import { quotes } from '../../data/content'
 
 export function Quotes() {
   const [index, setIndex] = useState(0)
+  const touchStartX = useRef<number | null>(null)
+
+  function handleTouchStart(e: React.TouchEvent) {
+    touchStartX.current = e.touches[0].clientX
+  }
+
+  function handleTouchEnd(e: React.TouchEvent) {
+    if (touchStartX.current === null) return
+    const delta = e.changedTouches[0].clientX - touchStartX.current
+    if (Math.abs(delta) > 50) {
+      setIndex((i) => (delta < 0 ? (i + 1) % quotes.length : (i - 1 + quotes.length) % quotes.length))
+    }
+    touchStartX.current = null
+  }
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -32,7 +46,12 @@ export function Quotes() {
           </motion.span>
 
           {/* Quote */}
-          <div className="relative min-h-[200px] flex flex-col items-center justify-center">
+          <div
+            className="relative min-h-[200px] flex flex-col items-center justify-center"
+            style={{ touchAction: 'pan-y' }}
+            onTouchStart={handleTouchStart}
+            onTouchEnd={handleTouchEnd}
+          >
             <AnimatePresence mode="wait">
               <motion.div
                 key={index}

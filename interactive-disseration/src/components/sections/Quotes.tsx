@@ -8,7 +8,7 @@ export function Quotes() {
   useEffect(() => {
     const timer = setInterval(() => {
       setIndex((i) => (i + 1) % quotes.length)
-    }, 5000)
+    }, 7000)
     return () => clearInterval(timer)
   }, [])
 

@@ -1,15 +1,35 @@
+import { useState, useEffect } from 'react'
 import { motion, useScroll, useTransform } from 'motion/react'
 
 const navItems = [
   { label: 'Findings', href: '#takeaways' },
   { label: 'Research', href: '#research-questions' },
   { label: 'Participants', href: '#case-studies' },
-  { label: 'Contact', href: '#researcher' },
+  { label: 'Researcher', href: '#researcher' },
+  { label: 'Contact', href: '#contact' },
 ]
 
 export function Header() {
   const { scrollY } = useScroll()
   const borderOpacity = useTransform(scrollY, [0, 80], [0, 1])
+  const [activeSection, setActiveSection] = useState<string | null>(null)
+
+  useEffect(() => {
+    const sectionIds = navItems.map(item => item.href.replace('#', ''))
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) setActiveSection(entry.target.id)
+        })
+      },
+      { rootMargin: '-15% 0px -75% 0px', threshold: 0 }
+    )
+    sectionIds.forEach(id => {
+      const el = document.getElementById(id)
+      if (el) observer.observe(el)
+    })
+    return () => observer.disconnect()
+  }, [])
 
   return (
     <motion.header
@@ -26,15 +46,21 @@ export function Header() {
       </a>
 
       <nav className="hidden md:flex items-center gap-8">
-        {navItems.map((item) => (
-          <a
-            key={item.label}
-            href={item.href}
-            className="text-[10px] font-sans font-700 uppercase tracking-widest text-slate hover:text-navy transition-colors"
-          >
-            {item.label}
-          </a>
-        ))}
+        {navItems.map((item) => {
+          const isActive = activeSection === item.href.replace('#', '')
+          return (
+            <a
+              key={item.label}
+              href={item.href}
+              className={`text-[10px] font-sans font-700 uppercase tracking-widest transition-colors ${
+                isActive ? 'text-navy' : 'text-slate hover:text-navy'
+              }`}
+              style={isActive ? { borderBottom: '2px solid var(--color-gold-bright)', paddingBottom: '2px' } : {}}
+            >
+              {item.label}
+            </a>
+          )
+        })}
       </nav>
     </motion.header>
   )

@@ -1,5 +1,6 @@
 import { SectionReveal } from '../ui/SectionReveal'
 import { researcher, whyItMatters } from '../../data/content'
+import headshot from '../../assets/headshot.png'
 
 export function Researcher() {
   return (
@@ -12,11 +13,21 @@ export function Researcher() {
         <div className="grid md:grid-cols-2 gap-16 mb-20">
           {/* Bio */}
           <SectionReveal delay={0.1}>
-            <h2 className="text-headline-italic text-on-dark text-4xl md:text-5xl mb-6">
-              {researcher.name}
-            </h2>
-            <p className="font-sans text-on-dark-muted text-sm mb-1">{researcher.institution}</p>
-            <p className="font-sans text-on-dark-muted text-sm mb-8">{researcher.department}</p>
+            <div className="flex items-center gap-5 mb-8">
+              <img
+                src={headshot}
+                alt="Jihye Kim"
+                className="w-20 h-20 rounded-full object-cover object-top shrink-0"
+                style={{ border: '2px solid rgba(251, 188, 0, 0.4)' }}
+              />
+              <div>
+                <h2 className="text-headline-italic text-on-dark text-4xl md:text-5xl mb-2">
+                  {researcher.name}
+                </h2>
+                <p className="font-sans text-on-dark-muted text-sm mb-0">{researcher.institution}</p>
+                <p className="font-sans text-on-dark-muted text-sm">{researcher.department}</p>
+              </div>
+            </div>
 
             <p className="font-sans text-on-dark/80 text-base leading-relaxed mb-8">
               {researcher.bio}

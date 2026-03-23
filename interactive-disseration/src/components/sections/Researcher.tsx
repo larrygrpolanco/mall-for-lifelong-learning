@@ -33,7 +33,7 @@ export function Researcher() {
               {researcher.bio}
             </p>
 
-            <div className="flex flex-wrap gap-2">
+            <div className="flex flex-wrap gap-2 mb-6">
               {researcher.grants.map((grant) => (
                 <span
                   key={grant}
@@ -42,6 +42,32 @@ export function Researcher() {
                   {grant}
                 </span>
               ))}
+            </div>
+
+            <div className="flex gap-4">
+              <a
+                href="mailto:jihyekim1@usf.edu"
+                className="flex items-center gap-2 text-on-dark-muted hover:text-gold-bright transition-colors duration-200 text-sm font-sans group"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="shrink-0">
+                  <rect width="20" height="16" x="2" y="4" rx="2"/>
+                  <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+                </svg>
+                <span className="border-b border-transparent group-hover:border-gold-bright/50 transition-colors duration-200">jihyekim1@usf.edu</span>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/jihye-kim-5244ab202/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-on-dark-muted hover:text-gold-bright transition-colors duration-200 text-sm font-sans group"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                  <rect width="4" height="12" x="2" y="9"/>
+                  <circle cx="4" cy="4" r="2"/>
+                </svg>
+                <span className="border-b border-transparent group-hover:border-gold-bright/50 transition-colors duration-200">LinkedIn</span>
+              </a>
             </div>
           </SectionReveal>
 
@@ -52,7 +78,7 @@ export function Researcher() {
               {whyItMatters.map((item, i) => (
                 <li key={i} className="flex gap-3">
                   <div className="w-px bg-gold-bright/40 shrink-0 mt-1 self-stretch" />
-                  <p className="font-sans text-on-dark-muted text-sm leading-relaxed">{item}</p>
+                  <p className="font-sans text-on-dark-muted text-md leading-relaxed">{item}</p>
                 </li>
               ))}
             </ul>

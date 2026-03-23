@@ -80,7 +80,7 @@ export const researchQuestions = [
     question:
       'High and stable motivation throughout, driven by leisure, cognitive health, and family connection.',
     teaser:
-      'High and stable motivation throughout — driven by leisure, cognitive health, and family connection.',
+      'They came for leisure, cognitive health, and family. They stayed for gamification, social accountability, and small real-world victories.',
     accentColor: '#c9900c',
   },
 ];
@@ -138,4 +138,5 @@ export const researcher = {
 export const whyItMatters = [
   'Over 800 million people use Duolingo globally, yet only ~2 prior studies examined the 60+ demographic.',
   'Language learning may help prevent cognitive decline, and these participants knew this and cited it as motivation.',
-]
+  'As the global population ages, understanding how older adults learn with technology will only become more important.',
+];
